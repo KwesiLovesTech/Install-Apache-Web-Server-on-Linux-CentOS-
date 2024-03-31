@@ -28,3 +28,8 @@ it should display
 10. Use the wget command to download the HTML template ZIP file by running this command "wget --no-check-certificate https://www.tooplate.com/zip-templates/2137_barista_cafe.zip"
 
 11. Once the download is complete, unzip the downloaded file using "unzip 2137_barista_cafe.zip"
+
+12. Copy all contents of the extracted folder into the Apache web server's HTML directory using " cp -r 2137_barista_cafe/* /var/www/html/ "
+
+13. Refresh the ubuntu page or copy and paste the ip address of server. It should look something like this :
+![cafe](image-2.png)

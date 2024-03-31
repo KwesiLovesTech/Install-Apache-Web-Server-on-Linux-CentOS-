@@ -18,3 +18,15 @@ example below
 
 it should display
 ![apache2](image-1.png)
+ 
+7. the next step is to upload your web contents into the server. For this step we will use a free HTML [template](https://www.tooplate.com/zip-templates/2137_barista_cafe.zip) from tooplate.com
+
+8. install a downloader, unzip software using this command " apt install wget unzip"
+
+9. Navigate to the temporary directory by executing "cd /tmp/"
+
+10. Use the wget command to download the HTML template ZIP file by running this command 
+
+ "wget --no-check-certificate https://www.tooplate.com/zip-templates/2137_barista_cafe.zip
+"
+11. Once the download is complete, unzip the downloaded file using "unzip 2137_barista_cafe.zip"

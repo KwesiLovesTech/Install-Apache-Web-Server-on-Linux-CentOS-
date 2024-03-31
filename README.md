@@ -27,6 +27,6 @@ it should display
 
 10. Use the wget command to download the HTML template ZIP file by running this command 
 
- "wget --no-check-certificate https://www.tooplate.com/zip-templates/2137_barista_cafe.zip
-"
+ "wget --no-check-certificate https://www.tooplate.com/zip-templates/2137_barista_cafe.zip"
+ 
 11. Once the download is complete, unzip the downloaded file using "unzip 2137_barista_cafe.zip"

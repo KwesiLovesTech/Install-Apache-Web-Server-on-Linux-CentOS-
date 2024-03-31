@@ -31,7 +31,9 @@ it should display
 
 12. Copy all contents of the extracted folder into the Apache web server's HTML directory using " cp -r 2137_barista_cafe/* /var/www/html/ "
 
-13. After copying the files, refresh the Ubuntu page in your web browser or simply paste the IP address of your server into the address bar. It should resemble the following preview: :
+13. After copying the files, refresh the Ubuntu page in your web browser or simply paste the IP address of your server into the address bar. It should resemble the following preview: 
+
+
 ![cafe](image-2.png)
 
 This image represents how the webpage should appear after successfully setting up the Apache web server. Congratulations!!

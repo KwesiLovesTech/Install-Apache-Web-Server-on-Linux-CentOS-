@@ -1,5 +1,39 @@
-# Setup-Apache-Web-Server-on-Linux #
-### Create a Local Virtual Machine and Deploy an HTML Template ###
+# Install Apache Web Server on Linux (CentOS)
+
+## 📌 Project Purpose
+
+This exercise demonstrates how to install and configure the Apache HTTP Server (`httpd`) on a CentOS-based Linux system. The goal is to provide hands-on experience in deploying a basic web server environment, a foundational skill in systems administration, DevOps, and cloud computing. 
+
+By the end of this walkthrough, you'll understand:
+- How to install Apache on CentOS
+- How to manage the `httpd` service (start, enable, restart)
+- How to allow HTTP traffic through the firewall
+- Where to place and modify web content
+
+---
+
+## 🎯 Why This Project?
+
+I chose this project to reinforce my foundational knowledge of Linux system administration and web server deployment. Installing and configuring Apache on CentOS is a practical, real-world task that demonstrates several core skills relevant to both traditional IT roles and modern DevOps/cloud environments.
+
+Through this hands-on exercise, I aimed to:
+
+- **Build confidence with Linux CLI** by managing packages, services, and firewalls.
+- **Understand the web server stack** by setting up Apache and serving live content.
+- **Learn service hardening basics**, such as enabling firewalls and managing startup behavior.
+- **Prepare for advanced topics** like automated provisioning, web application hosting, and containerization.
+
+This project also helped me appreciate how every component of a system — from firewall settings to service management — plays a role in the overall availability and security of a hosted application.
+
+---
+
+## 🛠️ Prerequisites
+
+- A CentOS-based Linux machine (physical, virtual, or cloud instance)
+- User with `sudo` privileges
+- Internet connectivity for package installation
+
+## 🚀 Installation Steps
 
 1. Begin by creating a virtual machine on your local system. You can (follow this [link](https://github.com/KwesiLovesTech/Create-VM-manually-or-automatically-using-Vagrant-by-HashiCorp))
 For this guide, I used an Ubuntu VM.
